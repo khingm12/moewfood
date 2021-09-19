@@ -1,0 +1,177 @@
+/* 
+    Author: Bùi Thị Khánh Linh;
+    Theme: Meow Food;
+    Verion: 1.0;
+ */
+ /* css for all */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family:'Courier New', Courier, monospace;
+}
+ .Container{
+     width: 90%;
+     margin: 0 auto;
+     padding: 0.5%;
+ }
+ /* css for navbar section */
+ .text-right{
+     text-align: right;
+ }
+ .text-center{
+     text-align: center;
+ }
+.clearfix{
+    clear: both;
+    float: none;
+}
+a{
+    color:#d35400;
+    text-decoration: none;
+}
+.btn{
+    padding:0.5%;
+    border: none;
+    font-size: 0.9rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #f1c40f;
+    color:white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #f1c40f;
+}
+ .img-responsive{
+     width: 100% ;
+ }
+ .img-curve{
+     border-radius: 10px;
+ }
+.Menu{
+     line-height: 90px;
+}
+.logo{
+     width: 18%;
+     float: left;
+}
+.Menu ul{
+     list-style-type: none;
+}
+.Menu ul li{
+    display:inline;
+    padding: 0.8%;
+}
+/* css for food search section here */
+.food-search{
+    background-image: url(../images/bg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:7% 0;
+}
+.food-search input[type="search"]{
+    width: 45%;
+    padding: 0.5%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+} 
+hz{
+    color: #d35400;
+    font-size: 2rem;
+}
+/* css for categories */
+.Categories{
+    padding: 4% 0;
+}
+.box-3{
+   
+    width: 27%;
+    float: left;
+    margin: 3%;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 10px;
+    left: 37%;
+}
+.text-white{
+    color:white;
+}
+h3{
+    font-size: 1.1rem;
+}
+/* css for food menu */
+.Food-menu{
+    background-color: #ececec;
+    padding: 4% 0;
+}
+.Food-menu-box{
+    width: 42%;
+    margin: 1.5%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 10px;
+}
+.food-menu-img{
+    width: 21%;
+    float: left;
+    border-radius: 8px;
+}
+.food-menu-desc{
+    width: 70%;
+    float:left;
+    margin-left: 8%;
+}
+.food-price{
+    font-size: 1.1rem;
+    margin: 1%;
+    color:#b33939;
+}
+.food-detail{
+    font-size: 0.9rem;
+    margin: 2%;
+}
+.Social ul{
+    list-style-type: none;
+}
+.Social ul li{
+    display: inline;
+    padding: 1.5%;
+}
+.Social-img{
+    width: 5%;
+}
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+.legend{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
